@@ -6,6 +6,6 @@ local games = {
 local url = 'https://scripts.luawl.com/%s/Flasic.lua'
 for _,v in pairs(games) do
     if v.id == game.PlaceId then
-      loadstring(game:HttpGet(string.format(url, v.url)))
+      loadstring(game:HttpGet(string.format(url, v.url)))()
     end
 end
