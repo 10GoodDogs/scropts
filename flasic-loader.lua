@@ -1,5 +1,5 @@
 local games = {
-  {id = 0, url="SPTS"}
+  {id=10710676163, url="SPTS"}
 }
 
 -- this shit is obfuscated so dont you dare skid it
